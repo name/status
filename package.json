@@ -1,0 +1,19 @@
+{
+  "name": "status",
+  "version": "1.0.0",
+  "description": "",
+  "main": "monitor/main.js",
+  "scripts": {
+    "start": "node monitor/main.js",
+    "reset": "node monitor/reset.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "md5": "^2.3.0",
+    "moment": "^2.29.4",
+    "request": "^2.88.2"
+  }
+}
